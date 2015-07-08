@@ -1,0 +1,17 @@
+{
+  "global": {
+    "parseVersion": "1.4.2"
+  },
+  "applications": {
+    "RainbowNotes": {
+      "applicationId": "UuBzIX2bQ0gcu0aLKWCgVQT8rDqCFh81jdmvUh5K",
+      "masterKey": "U1SjO1EmhlieJofHLF7wAboAB7gcfkGELkl1cF8j"
+    },
+    "RainbowNotesServer": {
+      "link": "RainbowNotes"
+    },
+    "_default": {
+      "link": "RainbowNotes"
+    }
+  }
+}

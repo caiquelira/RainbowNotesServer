@@ -1,0 +1,8 @@
+Parse.initialize("UuBzIX2bQ0gcu0aLKWCgVQT8rDqCFh81jdmvUh5K", "aiRDHqlXh6QWX15dhARXrOQ5Sc93reIOmppcHZl0");
+
+require('cloud/app.js')
+// Use Parse.Cloud.define to define as many cloud functions as you want.
+// For example:
+Parse.Cloud.define("hello", function(request, response) {
+  response.success("Hello world!");
+});
